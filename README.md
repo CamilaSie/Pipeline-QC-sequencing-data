@@ -16,7 +16,7 @@ Biopython\
 pandas
 
 # Usage
-
+```bash\
 pip install -r requirements.txt
 python scripts/qc_sequences.py
 }
