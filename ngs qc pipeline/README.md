@@ -22,8 +22,7 @@ This project implements a simple bioinformatics pipeline for quality control of 
 \
 ## Usage\
 ```bash\
-python scripts/qc_sequences.py\
-}
-## Run
+
 pip install -r requirements.txt
 python scripts/qc_sequences.py
+}
