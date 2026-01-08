@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Outputs
+results/
+
+# OS
+.DS_Store
+
+git rm -r --cached results/
+git commit -m "Remove results directory from version control"
+git push
