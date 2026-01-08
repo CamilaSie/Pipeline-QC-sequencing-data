@@ -1,21 +1,21 @@
 
 
-\f0\fs24 \cf0 # NGS QC Pipeline\
+ # NGS QC Pipeline
 \
 This project implements a simple bioinformatics pipeline for quality control of sequencing data using Python.\
 \
-## Features\
+## Features
 - Reads FASTA files\
 - Calculates sequence length\
 - Counts ambiguous bases (N)\
 - Generates a QC summary report in CSV format\
 \
-## Requirements\
+## Requirements
 - Python 3\
 - Biopython\
 - pandas\
 \
-## Usage\
+## Usage
 ```bash\
 
 pip install -r requirements.txt
