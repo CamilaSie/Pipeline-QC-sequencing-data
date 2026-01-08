@@ -42,16 +42,22 @@ results/qc_summary.csv
 
 ---
 
-## Usage
-Run the pipeline from the root directory:
-python scripts/qc_sequences.py
-
 ## Installation
 Install the required dependencies using:
 
 ```bash
 pip install -r requirements.txt
 }
+```
+---
 
+## Usage
+Run the pipeline from the root directory:
+```bash
+python scripts/qc_sequences.py
+```
+## Notes
+This project focuses on reproducibility and automation of basic QC steps.
+It is intended as a foundational bioinformatics pipeline that can be extended to support FASTQ files, additional QC metrics, or integration into workflow managers such as Nextflow.
 
 
