@@ -1,3 +1,4 @@
+``gitignore
 # Python
 __pycache__/
 *.pyc
@@ -10,8 +11,4 @@ results/
 # OS
 .DS_Store
 
-```bash
-git rm -r --cached results/
-git commit -m "Remove results directory from version control"
-git push
-```
+
